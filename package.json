@@ -1,0 +1,17 @@
+{
+	"name": "@mendabot/actions",
+	"version": "0.0.0",
+	"description": "Reusable GitHub Actions and workflows used across Mendabot projects.",
+	"type": "module",
+	"license": "MIT",
+	"private": true,
+	"scripts": {
+		"lint": "prettier --ignore-path .gitignore --check '**/*.{json,yml}'",
+		"lint:fix": "prettier --ignore-path .gitignore --write '**/*.{json,yml}'"
+	},
+	"devDependencies": {
+		"@mendabot/prettier-config": "^0.0.2",
+		"prettier": "^3.9.6"
+	},
+	"packageManager": "pnpm@10.33.1"
+}
