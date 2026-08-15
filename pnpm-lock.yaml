@@ -1,0 +1,36 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    devDependencies:
+      '@mendabot/prettier-config':
+        specifier: ^0.0.2
+        version: 0.0.2(prettier@3.9.6)
+      prettier:
+        specifier: ^3.9.6
+        version: 3.9.6
+
+packages:
+
+  '@mendabot/prettier-config@0.0.2':
+    resolution: {integrity: sha512-TBuwSUgBE51TTb5Bj88wjNJDp8kuuHO7ACfVEx6WaGAsvj9QNNOgFM4Rq8TRswfVVmZf+9UiaCqQ3DiAWWmbIw==}
+    peerDependencies:
+      prettier: '>=3'
+
+  prettier@3.9.6:
+    resolution: {integrity: sha512-OpN0zzVdiaiAhxpuuj5efpIS4sY9j7bY6uR5mnj5yPzGkdkjNKSJeUThPb60Jw29QuAZgA4o+/iB49kFiaBX6g==}
+    engines: {node: '>=14'}
+    hasBin: true
+
+snapshots:
+
+  '@mendabot/prettier-config@0.0.2(prettier@3.9.6)':
+    dependencies:
+      prettier: 3.9.6
+
+  prettier@3.9.6: {}
